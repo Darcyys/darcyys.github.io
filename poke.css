@@ -20,3 +20,10 @@ p {
     font-size: 24px;
     text-align: center;
 }
+
+img {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 790px;
+
+}
