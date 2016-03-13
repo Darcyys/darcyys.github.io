@@ -10,8 +10,6 @@ function onoes(){
     var img = $('img');
     var randomHeight = Math.floor(Math.random() * ($(window).height()  - img.height()));
     var randomWidth = Math.floor(Math.random() * ($(window).width() - img.width()));
-    console.log(randomHeight);
-    console.log(randomWidth);
     img.css({
         'margin-top': randomHeight + 'px',
         'margin-left': randomWidth + 'px'})
