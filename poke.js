@@ -3,10 +3,22 @@
  */
 
 function omg(){
-    var colores = ['#121723', 'crimson', 'blanchedalmond', 'cadetblue'];
-    $('body, html').css('background-color', colores[Math.floor(Math.random() * colores.length)]);
+    $('body, html').css('background-color', '#' + Math.random().toString(16).substr(-6));
+}
+
+function onoes(){
+    var img = $('img');
+    var randomHeight = Math.floor(Math.random() * ($(window).height()  - img.height()));
+    var randomWidth = Math.floor(Math.random() * ($(window).width() - img.width()));
+    console.log(randomHeight);
+    console.log(randomWidth);
+    img.css({
+        'margin-top': randomHeight + 'px',
+        'margin-left': randomWidth + 'px'})
+
 }
 
 $(document).ready(function(){
-    setInterval(omg, 200);
+    setInterval(omg, 350);
+    setInterval(onoes, 350)
 });
