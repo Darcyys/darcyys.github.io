@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     width: 100%;
-    background-color: #121723;
+    background-color: #040411;
     display: flex;
     align-items: center;
 }
@@ -11,19 +11,12 @@ body, html {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #760945;
+}
+
 div {
-    margin: auto;
-}
-
-p {
-    color: white;
-    font-size: 24px;
-    text-align: center;
-}
-
-img {
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 790px;
-
+    margin: 0 auto;
 }
