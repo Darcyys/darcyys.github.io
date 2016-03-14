@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #121723;
+    display: flex;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: auto;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 790px;
+
+}
